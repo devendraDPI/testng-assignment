@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Swag Labs" duration-ms="3606" started-at="2021-11-08T05:55:16 UTC" finished-at="2021-11-08T05:55:19 UTC">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="3606" started-at="2021-11-08T05:55:16 UTC" finished-at="2021-11-08T05:55:19 UTC">
+      <class name="test.LoginTest">
+        <test-method status="PASS" signature="ReportSetup()[pri:0, instance:test.LoginTest@51e2adc7]" name="ReportSetup" is-config="true" duration-ms="158" started-at="2021-11-08T05:55:16 UTC" finished-at="2021-11-08T05:55:16 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportSetup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.LoginTest@51e2adc7]" name="setup" is-config="true" duration-ms="1113" started-at="2021-11-08T05:55:16 UTC" finished-at="2021-11-08T05:55:17 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="NegativeLogin(java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@51e2adc7]" name="NegativeLogin" duration-ms="493" started-at="2021-11-08T05:55:17 UTC" finished-at="2021-11-08T05:55:18 UTC">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Xyz@abc12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NegativeLogin -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:test.LoginTest@51e2adc7]" name="teardown" is-config="true" duration-ms="73" started-at="2021-11-08T05:55:18 UTC" finished-at="2021-11-08T05:55:18 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.LoginTest@51e2adc7]" name="setup" is-config="true" duration-ms="894" started-at="2021-11-08T05:55:18 UTC" finished-at="2021-11-08T05:55:19 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="PositiveLogin(java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@51e2adc7]" name="PositiveLogin" duration-ms="490" started-at="2021-11-08T05:55:19 UTC" finished-at="2021-11-08T05:55:19 UTC">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PositiveLogin -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:test.LoginTest@51e2adc7]" name="teardown" is-config="true" duration-ms="74" started-at="2021-11-08T05:55:19 UTC" finished-at="2021-11-08T05:55:19 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="ReportTearDown()[pri:0, instance:test.LoginTest@51e2adc7]" name="ReportTearDown" is-config="true" duration-ms="276" started-at="2021-11-08T05:55:19 UTC" finished-at="2021-11-08T05:55:19 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportTearDown -->
+      </class> <!-- test.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Swag Labs -->
+</testng-results>
